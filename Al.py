@@ -1,1 +1,1 @@
-print("Helo")
+print('KBTU')
