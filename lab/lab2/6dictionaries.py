@@ -1,10 +1,10 @@
-# ex 1 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1965
-}
-print (car.get("model"))
+# # ex 1 
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1965
+# }
+# print (car.get("model"))
 
 # ex 2
 car =	{
@@ -14,27 +14,27 @@ car =	{
 }
 car["year"] = 2020
 
-# ex 3
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car["color"] = "red"
-print(car)
+# # ex 3
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car["color"] = "red"
+# print(car)
 
-# ex 4
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car.pop("model")
+# # ex 4
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car.pop("model")
 
-# ex 5
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car.clear()
+# # ex 5
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car.clear()
