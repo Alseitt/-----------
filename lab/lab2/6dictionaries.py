@@ -1,18 +1,18 @@
-# # ex 1 
-# car =	{
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1965
-# }
-# print (car.get("model"))
-
-# ex 2
+# ex 1 
 car =	{
   "brand": "Ford",
   "model": "Mustang",
-  "year": 1964
+  "year": 1965
 }
-car["year"] = 2020
+print (car.get("model"))
+
+# # ex 2
+# car =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# car["year"] = 2020
 
 # # ex 3
 # car =	{

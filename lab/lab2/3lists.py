@@ -1,10 +1,11 @@
-# ex 1
-fruits = ["apple", "banana", "cherry"]
-print(fruits[1])
+# # ex 1
+# fruits = ["apple", "banana", "cherry"]
+# print(fruits[1])
 
 # ex 2
-# fruits = ["apple", "banana", "cherry"]
-# fruits[0] = "kiwi"
+fruits = ["apple", "banana", "cherry"]
+fruits[0] = "kiwi"
+print(fruits)
 
 # # ex 3
 # fruits = ["apple," "banana", "cherry"]
