@@ -14,5 +14,5 @@ class Account():
             print(self.balance)
 
 wallet = Account("Dulat", 50000)
-wallet.deposit(5000)
-wallet.withdraw(10000)
+wallet.deposit(50000)
+wallet.withdraw(1000000)
