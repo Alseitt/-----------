@@ -1,4 +1,4 @@
 import re
 
 pattern = re.compile(r'a.*b$')
-print(pattern.findall("asdawdb, dfogergoyea4994b, ab, ppfkgdfgab"))
+print(pattern.findall("asdawd, dfogergoyea4994b, ab, ppfkgdfgab"))
