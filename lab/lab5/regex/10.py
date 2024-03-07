@@ -9,6 +9,6 @@ def camel_to_snake(CamelCase):
         snake_case = snake_case[1:]
     return snake_case
 
-CamelCase = "ThisIsDulat"
+CamelCase = "ThisIsAlseit"
 
 print(camel_to_snake(CamelCase))
