@@ -1,6 +1,6 @@
 import re
 
-text = "MyNameIsAlseit"
+text = "MayameIsAlseit"
 
 words = re.findall(r'[A-Z][^A-Z]*', text)
 print(words)

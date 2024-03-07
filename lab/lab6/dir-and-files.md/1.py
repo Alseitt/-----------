@@ -65,7 +65,7 @@
 
 # import os
 
-# path = r"C:\Users\alser\Downloads"  #Downloads is a directory that contains files and possibly other directories.
+# path = r"C:\Users\Admin\Desktop\Новая папка\lab\lab6\dir-and-files.md"  #Downloads is a directory that contains files and possibly other directories.
 
 # if os.path.exists(path):
 #     print("Path exists")

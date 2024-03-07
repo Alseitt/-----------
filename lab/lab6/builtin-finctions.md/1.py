@@ -1,6 +1,6 @@
 # BUILTIN FUNCTIONS
 
-# 1. Write a Python program with builtin function to multiply all the numbers in a list
+# # 1. Write a Python program with builtin function to multiply all the numbers in a list
 
 # from functools import reduce  #reduce function is used to apply a function to all elements in a list iteratively and return a single result.
 # numbers = [2, 3, 4, 5]
@@ -9,7 +9,7 @@
 # print(result)
 
 
-# 2. Write a Python program with builtin function that accepts a string and calculate the number of upper case letters and lower case letters
+# # 2. Write a Python program with builtin function that accepts a string and calculate the number of upper case letters and lower case letters
 
 # string = input("Enter a string: ")
 
