@@ -1,4 +1,4 @@
-# DIRECTORY AND File
+# # DIRECTORY AND File
 
 # 1. Write a Python program to list only directories, files and all directories, files in a specified path.
 
@@ -61,7 +61,7 @@
 # check_path_access(path)
 
 
-# 3. Write a Python program to test whether a given path exists or not. If the path exist find the filename and directory portion of the given path.
+# # 3. Write a Python program to test whether a given path exists or not. If the path exist find the filename and directory portion of the given path.
 
 # import os
 
@@ -89,7 +89,7 @@
 
 # 5. Write a Python program to write a list to a file.
 
-# my_list = ["apple", "banana", "cherry", "date"]
+# # my_list = ["apple", "banana", "cherry", "date"]
 
 # # Open a file in write mode
 # with open("my_list.txt", "w") as file:  #with statement automatically closes the file after the for loop completes, ensuring that all data is written to the file 
@@ -116,7 +116,7 @@
 # Source file path
 # source_file = "source.txt"
 
-# # Destination file path
+# Destination file path
 # destination_file = "destination.txt"
 
 # # Open the source file in read mode and the destination file in write mode
@@ -132,17 +132,17 @@
 # 8. Write a Python program to delete file by specified path. Before deleting check for access and whether a given path exists or not.
 
 
-# import os
+import os
 
-# file_path = r"C:\Users\alser\Downloads\githowto\githowto\repositories\work\delete.txt"
+file_path = r"C:\Users\Admin\Desktop\Новая папка\lab\lab6\dir-and-files.md/list.txt"
 
-# if os.path.exists(file_path):
-#     # Check if the user has permission to delete the file
-#     if os.access(file_path, os.W_OK):
-#         # Delete the file
-#         os.remove(file_path)
-#         print(f"{file_path} has been deleted.")
-#     else:
-#         print(f"ERROR: You do not have permission to delete {file_path}.")
-# else:
-#     print(f"ERROR: {file_path} does not exist.")
+if os.path.exists(file_path):
+    # Check if the user has permission to delete the file
+    if os.access(file_path, os.W_OK):
+        # Delete the file
+        os.remove(file_path)
+        print(f"{file_path} has been deleted.")
+    else:
+        print(f"ERROR: You do not have permission to delete {file_path}.")
+else:
+    print(f"ERROR: {file_path} does not exist.")
